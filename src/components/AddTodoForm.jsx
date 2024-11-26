@@ -23,8 +23,8 @@ function AddTodoForm(props)
         <div className="flex flex-col gap-3">
         <h1 className="text-2xl font-medium">Manage Activities</h1>
 
-        <div>
-        <input value={newactivity} onChange={handleChange} type="text" className="border shadow bg-white p-1 focus:border-none" placeholder="Next Activity?"/>
+        <div className="flex">
+        <input value={newactivity} onChange={handleChange} type="text" className="border shadow w-40 bg-white p-1 focus:border-none" placeholder="Next Activity?"/>
         <button onClick={addActivity} className="bg-[#059862] text-white p-1 border">Add</button>
         </div>
 
